@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/*": {
+      "memory": 128,
+      "maxDuration": 2
+    }
+  },
+  "github": {
+    "silent": true
+  },
+  "env": {
+    "API_TOKEN": "@api-token"
+  }
+}
