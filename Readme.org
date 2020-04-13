@@ -1,0 +1,3 @@
+#+TITLE: Now python sample
+
+Literally the simplest way I could find to run python on the internet
