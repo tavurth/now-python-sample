@@ -5,11 +5,11 @@ app = Sanic()
 
 GlobalVar = "This will be cached while the lambda is warm"
 
-@app.route(
-    '/<path:path>',
-    methods=['GET']
-)
-async def index(request, path=''):
+
+async def index(request, path=""):
     print(request)
     print(GlobalVar)
-    return json({'hello': path})
+    return json({"hello": path})
+
+
+app.add_route(index, "/<path:path>", methods=["GET"])
