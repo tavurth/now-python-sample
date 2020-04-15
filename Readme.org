@@ -4,18 +4,20 @@ The simplest way I've found to run python on the internet
 
 ** Usage
 
-*** If you want to deploy
+*** To start
 #+BEGIN_SRC bash
 git clone git@github.com:tavurth/now-python-sample.git
 cd now-python-sample
+#+END_SRC
+
+*** If you want to deploy
+#+BEGIN_SRC bash
 now
 #+END_SRC
 
 *** If you want dev mode
 #+BEGIN_SRC bash
-git clone git@github.com:tavurth/now-python-sample.git
-cd now-python-sample
-pip3 install -r requirements.txt
 npm i -g nodemon # Needs npm
+pip3 install -r requirements.txt
 ./dev.sh
 #+END_SRC
