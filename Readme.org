@@ -12,7 +12,8 @@ cd now-python-sample
 
 *** If you want to deploy
 #+BEGIN_SRC bash
-now
+npm i -g vercel
+vercel
 #+END_SRC
 
 *** If you want dev mode
